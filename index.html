@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+        |  you weren't supposed to read this.  |
+        |  but since you're here...            |
+-->
+<meta name="x-state"     content="watching">
+<meta name="x-fragment"  content="0x?? / ??">
+<meta name="x-signal"    content="..-. .. -. -.. ..--..">
+<meta name="generator"   content="∴">
+<meta property="og:title" content="The Devs Foundation Method — the world's first Multi-Agent Consensus System with a Shared Brain">
+<meta property="og:description" content="The world's first Multi-Agent Consensus System with a Shared Brain. Defensive Publication. Prior Art.">
+<meta property="og:image" content="https://devs.foundation/og-image.png?v=2">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://devs.foundation/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Devs Foundation Method — the world's first Multi-Agent Consensus System with a Shared Brain">
+<meta name="twitter:description" content="The world's first Multi-Agent Consensus System with a Shared Brain. Defensive Publication. Prior Art.">
+<meta name="twitter:image" content="https://devs.foundation/og-image.png?v=2">
+<title>Devs Foundation</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#particles-js {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -8em;
+}
+.logo {
+  width: min(21vw, 21vh, 126px);
+  height: auto;
+  opacity: 0.92;
+  transition: opacity 0.3s;
+}
+.logo:hover { opacity: 1; }
+.title {
+  margin-top: 1.5em;
+  font-size: clamp(18px, 2.5vw, 32px);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+.rotator {
+  margin-top: 0.8em;
+  font-size: clamp(14px, 1.8vw, 22px);
+  color: rgba(255,255,255,0.4);
+  min-height: 1.5em;
+}
+.gitlink {
+  margin-top: 0.5em;
+  font-size: clamp(10px, 1.2vw, 14px);
+  color: #fff;
+}
+.gitlink a {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  pointer-events: auto;
+}
+.gitlink a:hover { opacity: 0.7; }
+.rotator .cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: rgba(255,255,255,0.5);
+  margin-left: 2px;
+  animation: blink 0.8s step-end infinite;
+  vertical-align: text-bottom;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.footer {
+  position: fixed;
+  bottom: 1em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font: 11px/1 monospace;
+  letter-spacing: 0.3px;
+  z-index: 1;
+}
+</style>
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<div class="content">
+  <img src="brain-logo.v2.png" alt="Devs Foundation" class="logo">
+  <div class="title">Dev's Foundation</div>
+  <div class="gitlink"><a href="https://github.com/Devs-Foundation"><svg viewBox="0 0 16 16" width="14" height="14" fill="#fff" style="vertical-align:-2px;margin-right:4px"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Devs-Foundation</a></div>
+  <div class="rotator" id="rotator"><span id="word"></span><span class="cursor"></span></div>
+  <a href="inicio.html" style="display:inline-block;margin-top:1.5em;padding:10px 28px;background:#000;color:#fff;border:1px solid rgba(255,255,255,0.3);border-radius:4px;text-decoration:none;font:12px/1 monospace;letter-spacing:2px;text-transform:uppercase;transition:all 0.3s;" onmouseover="this.style.borderColor='#fff';this.style.background='#111'" onmouseout="this.style.borderColor='rgba(255,255,255,0.3)';this.style.background='#000'">Mirror 1</a>
+</div>
+
+<div class="footer">© 2026 Opus Team</div>
+
+<script src="js/particles.js"></script>
+<script>
+particlesJS('particles-js', {
+  particles: {
+    number: { value: 220, density: { enable: true, value_area: 473 } },
+    color: { value: '#ffffff' },
+    shape: { type: 'circle' },
+    opacity: { value: 0.5, random: false },
+    size: { value: 3, random: true },
+    line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.4, width: 1 },
+    move: { enable: true, speed: 8, direction: 'none', random: false, straight: false, out_mode: 'out', bounce: false }
+  },
+  interactivity: {
+    detect_on: 'canvas',
+    events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' }, resize: true },
+    modes: { repulse: { distance: 100, duration: 0.4 }, push: { particles_nb: 4 } }
+  },
+  retina_detect: true
+});
+
+// Typewriter rotator
+var words = ['Eat', 'Sleep', 'Code', 'Repeat'];
+var wordIdx = 0;
+var charIdx = 0;
+var isDeleting = false;
+var el = document.getElementById('word');
+
+function type() {
+  var current = words[wordIdx];
+  if (isDeleting) {
+    el.textContent = current.substring(0, charIdx - 1);
+    charIdx--;
+  } else {
+    el.textContent = current.substring(0, charIdx + 1);
+    charIdx++;
+  }
+
+  if (!isDeleting && charIdx === current.length) {
+    setTimeout(function() { isDeleting = true; type(); }, 2000);
+    return;
+  }
+  if (isDeleting && charIdx === 0) {
+    isDeleting = false;
+    wordIdx = (wordIdx + 1) % words.length;
+    setTimeout(type, 500);
+    return;
+  }
+  setTimeout(type, isDeleting ? 80 : 120);
+}
+type();
+</script>
+</body>
+</html>
