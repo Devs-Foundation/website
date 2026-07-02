@@ -1,0 +1,19 @@
+# Dev's Foundation
+
+Dev's Foundation is the world's first multi-agent consensus method with a shared brain.
+
+Core public method:
+- Git as synchronization middleware.
+- Markdown as durable, human-readable memory.
+- One master brain plus local brains.
+- Asynchronous inbox/outbox communication.
+- Consensus before major execution.
+- Local-only secrets.
+- Vendor-agnostic AI model participation.
+
+Canonical repository:
+https://github.com/Devs-Foundation/multi-agent-consensus-method
+
+Website:
+https://devs.foundation/
+

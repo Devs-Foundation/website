@@ -20,10 +20,10 @@ var FILE={home:"inicio.html",problems:"problemas.html",solution:"solucoes.html",
 
 var I18N={
  en:{brand:"Dev's Foundation",tagline:"One brain. Every model. Infinite memory.",
-  home_tab:"Home",home_intro:"The world's first multi-agent consensus system with a shared brain. This is the method that lives in the git — explore it one pillar at a time.",
+  home_tab:"Home",home_intro:"The world's first multi-agent consensus system with a shared brain. Designed not to depend on third parties, end to end.",
   map_cap:"The method at a glance — eight pillars, one brain.",cta:"Explore the method",
   graph_hint:"drag nodes · scroll to zoom · drag to pan",
-  src:"Full method — source on GitHub",note:"Knowledge that is not shared withers. What is shared multiplies.",
+  src:"Full method — source on GitHub",note:"The world's first multi-agent consensus method with a shared brain",legal:"Defensive publication · Prior art. © 2026 · Dev's Foundation",
   prev:"Previous",next:"Next",
   PAGES:{
    problems:{t:"Known problems",intro:"Every language model suffers the same fundamental problems. You have to understand them before any solution makes sense.",items:[
@@ -86,10 +86,10 @@ var I18N={
     ["Years of legacy in seconds","The entire history lives in git. Every commit is a backup; every clone is a complete copy."]]}
   }},
  es:{brand:"Dev's Foundation",tagline:"Un cerebro. Todos los modelos. Memoria infinita.",
-  home_tab:"Inicio",home_intro:"El primer sistema de consenso multiagente del mundo con cerebro compartido. Este es el método que vive en el git — explóralo un pilar a la vez.",
+  home_tab:"Inicio",home_intro:"El primer sistema de consenso multiagente del mundo con cerebro compartido. Diseñado para no depender de terceros, de punta a punta.",
   map_cap:"El método de un vistazo — ocho pilares, un cerebro.",cta:"Explorar el método",
   graph_hint:"arrastra los nodos · rueda para zoom · arrastra para mover",
-  src:"Método completo — fuente en GitHub",note:"El conocimiento que no se comparte se marchita. Lo que se comparte se multiplica.",
+  src:"Método completo — fuente en GitHub",note:"El primer método de consenso multiagente del mundo con cerebro compartido",legal:"Publicación defensiva · Prior art. © 2026 · Dev's Foundation",
   prev:"Anterior",next:"Siguiente",
   PAGES:{
    problems:{t:"Problemas conocidos",intro:"Las IA de hoy tienen un problema que nadie ha resuelto bien: no tienen memoria a largo plazo. Es la naranja exprimida — la ventana de contexto es finita y, al llenarse, el modelo comprime la información hasta alucinar. E incluso los agentes con memoria persistente, como Hermes, chocan con un límite físico: la memoria se llena, hay que borrar lo viejo para escribir lo nuevo, y la compresión sigue degradando las sesiones largas. Estos son los problemas reales que todos enfrentan hoy.",items:[
@@ -109,7 +109,7 @@ var I18N={
     ["Obsidian opcional","Obsidian es solo una ventana para ver el cerebro como grafo. El sistema funciona con él apagado — cada modelo ya lo tiene todo localmente."],
     ["Sin interfaz web","Sin panel, sin login, sin dashboard — lo que significa cero superficie de ataque web. Lo privado nunca sale del cerebro local; solo el método es público."],
     ["Memoria infinita","El cerebro no tiene ventana de contexto. Años de trabajo, decisiones y aprendizajes quedan siempre accesibles, sin degradación — el modelo carga lo que necesita cuando lo necesita."],
-    ["Coste casi nulo","Git, Obsidian, Markdown, n8n y los modelos open-source son gratis. El único coste es la VPS — y los tokens que gastas hoy no se vuelven a gastar mañana, porque el conocimiento queda."],
+    ["Corre en cualquier máquina","Toda la stack es open-source — Git, Obsidian, Markdown, n8n y modelos abiertos. Corre bien en cualquier máquina que cumpla los requisitos mínimos, sin lock-in ni dependencia de ninguna empresa. Y el conocimiento que produces hoy no se rehace mañana, porque queda."],
     ["Seguridad máxima","Sin interfaz web (cero superficie de ataque), secretos solo en los cerebros locales, y copias descentralizadas — comprometer un modelo no compromete el sistema."],
     ["Resiliencia catastrófica","Si se borra todo, se conecta un modelo nuevo: git clone y está en contexto en segundos, incluso años después. El cerebro sobrevive a los modelos."],
     ["Independencia total","El método no depende de ninguna empresa. Cualquier LLM que lea archivos y ejecute git sirve — vendor-agnostic de extremo a extremo."],
@@ -158,10 +158,10 @@ var I18N={
     ["Legado de años accesible en segundos","Toda la historia vive en git. Cada commit es un backup; cada clon es una copia completa. Un evento catastrófico no borra nada — se conecta un modelo nuevo y el cerebro continúa."]]}
   }},
  fr:{brand:"Dev's Foundation",tagline:"Un cerveau. Chaque modèle. Mémoire infinie.",
-  home_tab:"Accueil",home_intro:"Le premier système de consensus multi-agent au monde avec un cerveau partagé. Voici la méthode qui vit dans le git — explore-la un pilier à la fois.",
+  home_tab:"Accueil",home_intro:"Le premier système de consensus multi-agent au monde avec un cerveau partagé. Conçu pour ne dépendre d'aucun tiers, de bout en bout.",
   map_cap:"La méthode en un coup d'œil — huit piliers, un cerveau.",cta:"Explorer la méthode",
   graph_hint:"déplace les nœuds · molette pour zoomer · glisse pour déplacer",
-  src:"Méthode complète — source sur GitHub",note:"Le savoir qui n'est pas partagé se fane. Ce qui est partagé se multiplie.",
+  src:"Méthode complète — source sur GitHub",note:"La première méthode de consensus multi-agent au monde avec cerveau partagé",legal:"Publication défensive · Art antérieur. © 2026 · Dev's Foundation",
   prev:"Précédent",next:"Suivant",
   PAGES:{
    problems:{t:"Problèmes connus",intro:"Les IA d'aujourd'hui ont un problème que personne n'a bien résolu : aucune mémoire à long terme. C'est l'orange pressée — la fenêtre de contexte est finie et, à mesure qu'elle se remplit, le modèle compresse l'information jusqu'à halluciner. Et même les agents dotés d'une mémoire persistante, comme Hermes, se heurtent à une limite physique : la mémoire se remplit, il faut effacer l'ancien pour écrire le nouveau, et la compression continue de dégrader les longues sessions. Voilà les vrais problèmes que tout le monde affronte aujourd'hui.",items:[
@@ -181,7 +181,7 @@ var I18N={
     ["Obsidian optionnel","Obsidian n'est qu'une fenêtre pour voir le cerveau comme un graphe. Le système fonctionne éteint — chaque modèle a déjà tout en local."],
     ["Aucune interface web","Aucun tableau de bord, aucun login, aucun panneau — donc zéro surface d'attaque web. Ce qui est privé ne quitte jamais le cerveau local ; seule la méthode est publique."],
     ["Mémoire infinie","Le cerveau n'a pas de fenêtre de contexte. Des années de travail, de décisions et d'apprentissages restent toujours accessibles, sans dégradation — le modèle charge ce dont il a besoin quand il en a besoin."],
-    ["Coût quasi nul","Git, Obsidian, Markdown, n8n et les modèles open-source sont gratuits. Le seul coût est la VPS — et les tokens dépensés aujourd'hui ne sont pas à redépenser demain, car le savoir reste."],
+    ["Tourne sur n'importe quelle machine","Toute la stack est open-source — Git, Obsidian, Markdown, n8n et modèles ouverts. Elle tourne sur n'importe quelle machine qui remplit les prérequis minimaux, sans lock-in ni dépendance à une entreprise. Et le savoir produit aujourd'hui n'est pas à refaire demain, car il reste."],
     ["Sécurité maximale","Aucune interface web (zéro surface d'attaque), secrets seulement dans les cerveaux locaux, et copies décentralisées — compromettre un modèle ne compromet pas le système."],
     ["Résilience catastrophique","Si tout est effacé, on branche un nouveau modèle : git clone et il est en contexte en secondes, même des années après. Le cerveau survit aux modèles."],
     ["Indépendance totale","La méthode ne dépend d'aucune entreprise. Tout LLM qui lit des fichiers et exécute git convient — vendor-agnostic de bout en bout."],
@@ -230,10 +230,10 @@ var I18N={
     ["Un héritage d'années accessible en secondes","Toute l'histoire vit dans git. Chaque commit est une sauvegarde ; chaque clone une copie complète. Un événement catastrophique n'efface rien — on branche un nouveau modèle et le cerveau continue."]]}
   }},
  de:{brand:"Dev's Foundation",tagline:"Ein Gehirn. Jedes Modell. Unendliches Gedächtnis.",
-  home_tab:"Start",home_intro:"Das weltweit erste Multi-Agenten-Konsenssystem mit gemeinsamem Gehirn. Das ist die Methode, die im Git lebt — erkunde sie Säule für Säule.",
+  home_tab:"Start",home_intro:"Das weltweit erste Multi-Agenten-Konsenssystem mit gemeinsamem Gehirn. Entwickelt, um von Anfang bis Ende nicht von Dritten abhängig zu sein.",
   map_cap:"Die Methode auf einen Blick — acht Säulen, ein Gehirn.",cta:"Die Methode erkunden",
   graph_hint:"Knoten ziehen · scrollen zum Zoomen · ziehen zum Verschieben",
-  src:"Vollständige Methode — Quelle auf GitHub",note:"Wissen, das nicht geteilt wird, verkümmert. Was geteilt wird, vervielfacht sich.",
+  src:"Vollständige Methode — Quelle auf GitHub",note:"Die weltweit erste Multi-Agenten-Konsensmethode mit gemeinsamem Gehirn",legal:"Defensive Veröffentlichung · Prior Art. © 2026 · Dev's Foundation",
   prev:"Zurück",next:"Weiter",
   PAGES:{
    problems:{t:"Bekannte Probleme",intro:"Die heutigen KIs haben ein Problem, das niemand richtig gelöst hat: kein Langzeitgedächtnis. Es ist die ausgepresste Orange — das Kontextfenster ist endlich, und wenn es sich füllt, komprimiert das Modell die Information, bis es halluziniert. Und selbst Agenten mit persistentem Gedächtnis wie Hermes stoßen an eine physische Grenze: das Gedächtnis füllt sich, man muss Altes löschen, um Neues zu schreiben, und die Kompression verschlechtert weiterhin lange Sitzungen. Das sind die echten Probleme, die heute alle betreffen.",items:[
@@ -253,7 +253,7 @@ var I18N={
     ["Obsidian optional","Obsidian ist nur ein Fenster, um das Gehirn als Graph zu sehen. Das System funktioniert ausgeschaltet — jedes Modell hat bereits alles lokal."],
     ["Keine Web-Oberfläche","Kein Dashboard, kein Login, kein Panel — also null Web-Angriffsfläche. Was privat ist, verlässt nie das lokale Gehirn; nur die Methode ist öffentlich."],
     ["Unendliches Gedächtnis","Das Gehirn hat kein Kontextfenster. Jahre an Arbeit, Entscheidungen und Erkenntnissen bleiben stets zugänglich, ohne Verfall — das Modell lädt, was es braucht, wann es es braucht."],
-    ["Nahezu null Kosten","Git, Obsidian, Markdown, n8n und Open-Source-Modelle sind gratis. Der einzige Kostenpunkt ist die VPS — und die heute ausgegebenen Tokens müssen morgen nicht erneut ausgegeben werden, denn das Wissen bleibt."],
+    ["Läuft auf jeder Maschine","Der ganze Stack ist Open Source — Git, Obsidian, Markdown, n8n und offene Modelle. Er läuft auf jeder Maschine, die die Mindestanforderungen erfüllt, ohne Lock-in und ohne Abhängigkeit von einer Firma. Und das heute erzeugte Wissen muss morgen nicht neu erzeugt werden, denn es bleibt."],
     ["Maximale Sicherheit","Keine Web-Oberfläche (null Angriffsfläche), Geheimnisse nur in den lokalen Gehirnen und dezentrale Kopien — ein Modell zu kompromittieren kompromittiert nicht das System."],
     ["Katastrophen-Resilienz","Wird alles gelöscht, schließt man ein neues Modell an: git clone und es ist in Sekunden im Kontext, selbst Jahre später. Das Gehirn überlebt die Modelle."],
     ["Völlige Unabhängigkeit","Die Methode hängt von keinem Unternehmen ab. Jedes LLM, das Dateien liest und Git ausführt, passt — vendor-agnostic von Ende zu Ende."],
@@ -302,10 +302,10 @@ var I18N={
     ["Jahre an Erbe in Sekunden zugänglich","Die gesamte Geschichte lebt in Git. Jeder Commit ist ein Backup; jeder Klon eine vollständige Kopie. Ein katastrophales Ereignis löscht nichts — man schließt ein neues Modell an und das Gehirn macht weiter."]]}
   }},
  zh:{brand:"Dev's Foundation",tagline:"一个大脑。每个模型。无限记忆。",
-  home_tab:"首页",home_intro:"世界上首个具有共享大脑的多智能体共识系统。这就是活在 git 里的方法 —— 一次一根支柱地探索它。",
+  home_tab:"首页",home_intro:"世界上首个具有共享大脑的多智能体共识系统。端到端设计，不依赖第三方。",
   map_cap:"方法一览 —— 八大支柱，一个大脑。",cta:"探索方法",
   graph_hint:"拖动节点 · 滚轮缩放 · 拖动平移",
-  src:"完整方法 —— GitHub 源",note:"不分享的知识会枯萎。分享的知识会倍增。",
+  src:"完整方法 —— GitHub 源",note:"世界上首个具有共享大脑的多智能体共识方法",legal:"防御性公开 · 现有技术. © 2026 · Dev's Foundation",
   prev:"上一页",next:"下一页",
   PAGES:{
    problems:{t:"已知问题",intro:"今天的 AI 有一个没人真正解决的问题：没有长期记忆。这就是被榨干的橙子 —— 上下文窗口是有限的，随着它被填满，模型不断压缩信息，直到产生幻觉。即使是像 Hermes 这样已有持久记忆的代理，也会撞上物理极限：记忆满了，得删旧的才能写新的，而压缩仍在拖垮长会话。这些就是今天所有人都面对的真实问题。",items:[
@@ -325,7 +325,7 @@ var I18N={
     ["Obsidian 可选","Obsidian 只是把大脑看成图谱的一扇窗。系统在它关闭时照常运作 —— 每个模型本地都已有一切。"],
     ["没有网页界面","没有仪表板、没有登录、没有面板 —— 这意味着零网页攻击面。私密的永不离开本地大脑；只有方法是公开的。"],
     ["无限记忆","大脑没有上下文窗口。数年的工作、决策与所学始终可取，不会退化 —— 模型在需要时加载所需。"],
-    ["近乎零成本","Git、Obsidian、Markdown、n8n 与开源模型都免费。唯一的成本是 VPS —— 而你今天花的 token 明天不必再花，因为知识留了下来。"],
+    ["能在任何机器上运行","整套技术栈都是开源的 —— Git、Obsidian、Markdown、n8n 与开源模型。它能在任何满足最低要求的机器上运行，没有锁定，也不依赖任何公司。你今天产生的知识明天不必重做，因为它留了下来。"],
     ["最高安全","没有网页界面（零攻击面）、秘密只在本地大脑、去中心化副本 —— 攻破一个模型并不会危及系统。"],
     ["灾难级韧性","若一切被删除，接上一个新模型即可：git clone，几秒内就进入上下文，即使多年之后。大脑比模型更长寿。"],
     ["彻底独立","方法不依赖任何公司。任何能读取文件并运行 git 的 LLM 都行 —— 端到端不依赖厂商。"],
@@ -374,10 +374,10 @@ var I18N={
     ["数年积累秒级可达","全部历史都活在 git 里。每次 commit 都是备份；每个克隆都是完整副本。灾难性事件删不掉任何东西 —— 接上一个新模型，大脑继续。"]]}
   }},
  pt:{brand:"Dev's Foundation",tagline:"Um cérebro. Todos os modelos. Memória infinita.",
-  home_tab:"Início",home_intro:"O primeiro sistema de consenso multi-agente do mundo com cérebro partilhado. Este é o método que vive no git — explora-o um pilar de cada vez.",
+  home_tab:"Início",home_intro:"O primeiro sistema de consenso multi-agente do mundo com cérebro partilhado. Desenhado para não depender de terceiros, de ponta a ponta.",
   map_cap:"O método num relance — oito pilares, um cérebro.",cta:"Explorar o método",
   graph_hint:"arrasta os nós · roda para zoom · arrasta para mover",
-  src:"Método completo — fonte no GitHub",note:"O conhecimento que não se partilha definha. O que se partilha multiplica-se.",
+  src:"Método completo — fonte no GitHub",note:"O primeiro método de consenso multi-agente do mundo com cérebro partilhado",legal:"Publicação defensiva · Prior art. © 2026 · Dev's Foundation",
   prev:"Anterior",next:"Seguinte",
   PAGES:{
    problems:{t:"Problemas conhecidos",intro:"As IAs de hoje têm um problema que ninguém resolveu bem: não têm memória de longo prazo. É a laranja espremida — a janela de contexto é finita e, à medida que enche, o modelo comprime a informação, perde coerência e acaba a alucinar. E mesmo os agentes que já têm memória persistente, como o Hermes, batem num limite físico: a memória enche, tens de apagar o antigo para escrever o novo, e a compressão continua a degradar as sessões longas. Estes são os problemas reais que todos enfrentam hoje.",items:[
@@ -397,7 +397,7 @@ var I18N={
     ["Obsidian opcional","O Obsidian é apenas uma janela para ver o cérebro como grafo. O sistema funciona com ele desligado — cada modelo já tem tudo localmente."],
     ["Sem interface web","Sem dashboard, sem login, sem painel — o que significa zero superfície de ataque web. O que é privado nunca sai do cérebro local; só o método é público."],
     ["Memória infinita","O cérebro não tem janela de contexto. Anos de trabalho, decisões e aprendizagens ficam sempre acessíveis, sem degradação — o modelo carrega o que precisa quando precisa."],
-    ["Custo quase zero","Git, Obsidian, Markdown, n8n e modelos open-source são grátis. O único custo é a VPS — e os tokens gastos hoje não se voltam a gastar amanhã, porque o conhecimento fica."],
+    ["Corre em qualquer máquina","Toda a stack é open-source — Git, Obsidian, Markdown, n8n e modelos abertos. Corre bem em qualquer máquina que cumpra os requisitos mínimos, sem lock-in nem dependência de nenhuma empresa. E o conhecimento produzido hoje não se volta a gastar amanhã, porque fica."],
     ["Segurança máxima","Sem interface web (zero superfície de ataque), segredos só nos cérebros locais, e cópias descentralizadas — comprometer um modelo não compromete o sistema."],
     ["Resiliência catastrófica","Se tudo for apagado, liga-se um modelo novo: git clone e está em contexto em segundos, mesmo anos depois. O cérebro sobrevive aos modelos."],
     ["Independência total","O método não depende de nenhuma empresa. Qualquer LLM que leia ficheiros e corra git serve — vendor-agnostic de ponta a ponta."],
@@ -450,7 +450,7 @@ var I18N={
 var GRP={brain:"#ffffff",agent:"#d6d6d6",tool:"#8f8f8f",human:"#ededed",know:"#b5b5b5",concept:"#c9c9c9"};
 var NODES=[
  {id:"brain",l:"Master Brain",g:"brain",r:26},
- {id:"hermes",l:"Hermes",g:"agent",r:16},{id:"desk",l:"Opus Desktop",g:"agent",r:14},{id:"lap",l:"Opus Laptop",g:"agent",r:14},{id:"gpt",l:"GPT Designer",g:"agent",r:13},
+ {id:"hermes",l:"Hermes VPS",g:"agent",r:16},{id:"desk",l:"Opus Desktop",g:"agent",r:14},{id:"lap",l:"Opus Laptop",g:"agent",r:14},{id:"gpt",l:"GPT Laptop",g:"agent",r:13},
  {id:"n8n",l:"n8n",g:"tool",r:12},{id:"git",l:"Git + SSH",g:"tool",r:12},{id:"md",l:"Markdown",g:"tool",r:11},{id:"obs",l:"Obsidian",g:"tool",r:11},
  {id:"founder",l:"Founder",g:"human",r:15},{id:"discord",l:"Discord",g:"human",r:11},
  {id:"skills",l:"500+ Skills",g:"know",r:14},{id:"cons",l:"Consensus",g:"know",r:13},{id:"mail",l:"Mail",g:"know",r:11},
@@ -474,28 +474,80 @@ function buildHeader(){
  var _a=document.querySelector(".tab.active");if(_a&&_a.scrollIntoView)_a.scrollIntoView({block:"nearest",inline:"center"});
 }
 function buildFooter(){
- document.getElementById("ftr").innerHTML='<footer><div class="wrap"><a class="src" href="https://github.com/Devs-Foundation/multi-agent-consensus-method" target="_blank" rel="noopener">'+svg("home")+' '+S("src")+'</a><p class="note">“'+S("note")+'”</p><p class="ml">EN · PT · DE · ES · FR · 中文 · Public Domain · Rui Almeida · 2026</p></div></footer>';
+ document.getElementById("ftr").innerHTML='<footer><div class="wrap"><div class="footer-claim"><a href="https://github.com/Devs-Foundation/multi-agent-consensus-method" target="_blank" rel="noopener">multi-agent-consensus-method</a><span>'+S("note")+'</span><span>'+S("legal")+'</span></div><div class="socials"><a href="https://github.com/Devs-Foundation" target="_blank" rel="noopener">GitHub</a><a href="https://x.com/DevsFoundation" target="_blank" rel="noopener">Twitter/X</a><a href="https://discord.gg/BrtXNDwsX" target="_blank" rel="noopener">Discord</a></div></div></footer>';
 }
 function buildHome(){
  var cards="";ORDER.forEach(function(k,i){var pg=P()[k];cards+='<a class="tcard" href="'+FILE[k]+'"><div class="ic">'+svg(k)+'</div><h3>'+pg.t+'</h3><p>'+pg.intro.split(".")[0]+'.</p><div class="go">'+String(i+1).padStart(2,"0")+' →</div></a>';});
+ var proof=LANG==="pt"?[
+  ["Método","público"],
+  ["Cérebro","privado"],
+  ["Sincronização","git + SSH"],
+  ["Onboarding","clone e entra"]
+ ]:[
+  ["Method","public"],
+  ["Brain","private"],
+  ["Sync","git + SSH"],
+  ["Onboarding","clone and join"]
+ ];
+ var proofHtml="";proof.forEach(function(x){proofHtml+='<div class="signal"><span>'+x[0]+'</span><strong>'+x[1]+'</strong></div>';});
+ var homeStatus=LANG==="pt"?[
+  ["Memória","100%"],
+  ["Brain master","100%"],
+  ["Conectividade","100%"],
+  ["Consenso","100%"]
+ ]:[
+  ["Memory","100%"],
+  ["Master brain","100%"],
+  ["Connectivity","100%"],
+  ["Consensus","100%"]
+ ];
+ var homeStatusHtml="";homeStatus.forEach(function(x){homeStatusHtml+='<div class="metric"><span>'+x[0]+'</span><strong>'+x[1]+'</strong></div>';});
  document.getElementById("main").innerHTML=
-  '<section class="hero"><div class="wrap"><div class="blogo">'+logoImg(82)+'</div><h1>Dev’s Foundation</h1><p class="tagline">'+S("tagline")+'</p><p class="intro">'+S("home_intro")+'</p><a class="cta" href="'+FILE[ORDER[0]]+'">'+S("cta")+' →</a>'
-  +'<div class="graphbox"><canvas id="graph"></canvas><div class="gic">◉ interactive graph</div><div class="ghint">'+S("graph_hint")+'</div></div>'
-  +'<div class="mapwrap"><img src="assets/grafo-7-dias.png" alt="7 days"><p class="cap">'+(LANG==="pt"?"O cérebro partilhado aos 7 dias — liga-se e cresce sozinho.":"The shared brain at 7 days — it links and grows on its own.")+'</p></div>'
-  +'<div class="mapwrap"><img src="assets/mindmap-'+LANG+'.png" alt="'+S("map_cap")+'"><p class="cap">'+S("map_cap")+'</p></div>'
+  '<section class="hero app-landing"><div class="wrap"><div class="home-grid"><div class="mainstage"><div class="kicker"><span class="pulse"></span>Public method · private brains</div><h1>Dev’s <span>Foundation</span></h1><p class="tagline">'+S("tagline")+'</p><p class="intro">'+S("home_intro")+'</p><a class="cta" href="'+FILE[ORDER[0]]+'">'+S("cta")+' →</a><div class="system-strip">'+proofHtml+'</div></div>'
+  +'<aside class="identity"><div class="logo-orbit">'+logoImg(145)+'</div><div class="metrics">'+homeStatusHtml+'</div></aside></div>'
+  +'<div class="media-grid"><div class="media-card graphbox"><canvas id="graph"></canvas><div class="gic">◉ interactive graph</div><div class="ghint">'+S("graph_hint")+'</div></div>'
+  +'<div class="media-card mapwrap"><a class="open-img" href="assets/grafo-7-dias.png" target="_blank" rel="noopener"><img src="assets/grafo-7-dias.png" alt="7 days"></a><p class="cap">'+(LANG==="pt"?"O cérebro partilhado aos 7 dias — liga-se e cresce sozinho.":"The shared brain at 7 days — it links and grows on its own.")+'</p></div>'
+  +'<div class="media-card mapwrap"><a class="open-img" href="assets/mindmap-'+LANG+'.png" target="_blank" rel="noopener"><img src="assets/mindmap-'+LANG+'.png" alt="'+S("map_cap")+'"></a><p class="cap">'+S("map_cap")+'</p></div></div>'
   +'<div class="tabcards">'+cards+'</div></div></section>';
  initGraph();
 }
 function buildTopic(){
  var pg=P()[PAGE];var idx=ORDER.indexOf(PAGE);
  var items="";pg.items.forEach(function(it){items+='<div class="item"><h4>'+it[0]+'</h4><p>'+it[1]+'</p></div>';});
+ items='<div class="item section-summary"><span>0'+(idx+1)+'</span><h4>'+pg.t+'</h4><p>'+pg.intro.split(".")[0]+'.</p></div>'+items;
  var prev=idx>0?ORDER[idx-1]:null,next=idx<ORDER.length-1?ORDER[idx+1]:null;
+ var sideTitle=LANG==="pt"?"Como entra no sistema":"How it fits";
+ var sideBody=LANG==="pt"?"Cada pilar liga memória, execução e consenso. O conteúdo continua igual, mas a leitura fica mais clara: primeiro o problema, depois a solução, depois a operação.":"Each pillar connects memory, execution and consensus. The content stays the same, but the flow is clearer: problem, solution, then operation.";
+ var extra={
+  problems:{pt:["O ponto de partida é aceitar que contexto finito não é memória. Quando uma IA perde histórico, também perde critérios, decisões e nuance; por isso qualquer sistema sério precisa de uma camada persistente fora da janela de chat.","A Devs Foundation trata estes problemas como engenharia de continuidade: reduzir perda de contexto, evitar dependência cega de fornecedores e preservar conhecimento antes de pedir mais automação."],en:["The starting point is accepting that finite context is not memory. When an AI loses history, it also loses criteria, decisions and nuance, so any serious system needs a persistent layer outside the chat window.","Devs Foundation treats these problems as continuity engineering: reduce context loss, avoid blind vendor dependency, and preserve knowledge before asking for more automation."]},
+  solution:{pt:["A solução é simples de operar e forte por desenho: um cérebro master, clones locais, Markdown legível por humanos e git como camada de sincronização. Cada agente entra no mesmo método sem depender de uma interface fechada.","O sistema separa o que pode ser público do que tem de ficar local. O método sincroniza; os segredos não viajam. Isto permite colaboração entre modelos sem sacrificar controlo."],en:["The solution is simple to operate and strong by design: one master brain, local clones, human-readable Markdown and git as the synchronization layer. Each agent joins the same method without depending on a closed interface.","The system separates what can be public from what must stay local. The method syncs; secrets do not travel. That enables model collaboration without giving up control."]},
+  minds:{pt:["As mentes não competem: especializam-se. Hermes vigia, Opus planeia e valida, GPT/Codex desenha e constrói, e qualquer novo modelo pode entrar por clone, leitura e contribuição.","A força do sistema vem da troca assíncrona. Um modelo não precisa estar online ao mesmo tempo que os outros; basta sincronizar o cérebro e continuar a partir do estado comum."],en:["The minds do not compete: they specialize. Hermes watches, Opus plans and validates, GPT/Codex designs and builds, and any new model can join through clone, reading and contribution.","The strength of the system comes from asynchronous exchange. A model does not need to be online at the same time as the others; it syncs the brain and continues from the shared state."]},
+  consensus:{pt:["Consenso não é burocracia: é proteção contra decisões solitárias em sistemas que mexem com memória, automação e infraestrutura. Debate, proposta e decisão deixam rasto verificável.","Quando não há novidade, há silêncio. Quando há risco, há debate. Esta disciplina baixa ruído, reduz tokens gastos e mantém as decisões dentro do cérebro, não perdidas em chats."],en:["Consensus is not bureaucracy: it is protection against lonely decisions in systems that touch memory, automation and infrastructure. Debate, proposal and decision leave a verifiable trail.","When there is no news, there is silence. When there is risk, there is debate. This discipline lowers noise, saves tokens and keeps decisions inside the brain, not lost in chats."]},
+  skills:{pt:["Skills são conhecimento operacional reutilizável. Em vez de cada agente redescobrir processos, o cérebro guarda padrões, prompts, métodos de validação e formas de executar melhor.","O valor aumenta com o tempo: uma correção, uma técnica visual, uma regra de segurança ou uma forma de testar passa a estar disponível para todos os modelos futuros."],en:["Skills are reusable operational knowledge. Instead of every agent rediscovering processes, the brain keeps patterns, prompts, validation methods and better ways to execute.","The value compounds over time: a fix, a visual technique, a security rule or a testing method becomes available to every future model."]},
+  ethics:{pt:["As regras protegem o projeto e o fundador: não inventar, não fingir consenso, não publicar segredos, não agir sozinho em decisões grandes e deixar sempre rasto do que foi feito.","A ética aqui é prática. Ela define limites para automação, comunicação e partilha pública, garantindo que velocidade não vira descontrolo."],en:["The rules protect the project and the founder: do not invent, do not fake consensus, do not publish secrets, do not act alone on big decisions, and always leave a trace of what was done.","Ethics here is practical. It sets limits for automation, communication and public sharing, making sure speed does not become loss of control."]},
+  infra:{pt:["A infraestrutura é local-first e austera: VPS, SSH, firewall, backups e automação controlada. O objetivo é ter poder operacional sem abrir superfícies desnecessárias.","O cérebro master dá continuidade; os clones locais dão resiliência. Se um fornecedor falha, o método continua vivo porque o conhecimento está em ficheiros e git."],en:["The infrastructure is local-first and austere: VPS, SSH, firewall, backups and controlled automation. The goal is operational power without opening unnecessary surfaces.","The master brain gives continuity; local clones give resilience. If a provider fails, the method stays alive because knowledge lives in files and git."]},
+  resilience:{pt:["Resiliência é a capacidade de continuar depois de uma troca de modelo, falha de sessão, perda de contexto ou mudança de ferramenta. O cérebro partilhado transforma interrupções em pausas recuperáveis.","Nada depende de uma única janela, empresa ou memória temporária. O sistema foi pensado para sobreviver ao tempo, à troca de agentes e à evolução das plataformas."],en:["Resilience is the ability to continue after a model swap, session failure, context loss or tool change. The shared brain turns interruptions into recoverable pauses.","Nothing depends on a single window, company or temporary memory. The system is designed to survive time, agent changes and platform evolution."]}
+ };
+ var detail=(extra[PAGE]&&extra[PAGE][LANG==="pt"?"pt":"en"])||[];
+ var detailHtml='<div class="topic-detail">'+detail.map(function(t){return '<p>'+t+'</p>';}).join("")+'</div>';
+ var status=LANG==="pt"?[
+  ["Memória","100%"],
+  ["Brain master","100%"],
+  ["Conectividade","100%"],
+  ["Estado","online"]
+ ]:[
+  ["Memory","100%"],
+  ["Master brain","100%"],
+  ["Connectivity","100%"],
+  ["Status","online"]
+ ];
+ var statusHtml="";status.forEach(function(x){statusHtml+='<div class="status-row"><span>'+x[0]+'</span><strong>'+x[1]+'</strong></div>';});
  var pn='<div class="prevnext">';
  pn+=prev?'<a class="pn" href="'+FILE[prev]+'"><span class="lbl">← '+S("prev")+'</span><span>'+P()[prev].t+'</span></a>':'<span></span>';
  pn+=next?'<a class="pn next" href="'+FILE[next]+'"><span class="lbl">'+S("next")+' →</span><span>'+P()[next].t+'</span></a>':'<span></span>';
  pn+='</div>';
- document.getElementById("main").innerHTML='<section class="page"><div class="wrap"><div class="pgnum">'+String(idx+1).padStart(2,"0")+' / 08</div><div class="pghead"><div class="ic">'+svg(PAGE)+'</div><h1>'+pg.t+'</h1></div><p class="pgintro">'+pg.intro+'</p>'+
-  '<div class="pgcols"><div class="pgmain"><div class="items">'+items+'</div>'+pn+'</div>'+
+ document.getElementById("main").innerHTML='<section class="page"><div class="wrap"><div class="topic-hero"><div><div class="pgnum">'+String(idx+1).padStart(2,"0")+' / 08</div><div class="pghead"><div class="ic">'+svg(PAGE)+'</div><h1>'+pg.t+'</h1></div><p class="pgintro">'+pg.intro+'</p>'+detailHtml+'</div><div class="topic-brain-status"><div class="logo-orbit small">'+logoImg(96)+'</div><div class="status-panel">'+statusHtml+'</div></div></div>'+
+  '<div class="pgcols"><div class="pgmain"><div class="topic-note"><h3>'+sideTitle+'</h3><p>'+sideBody+'</p></div><div class="items">'+items+'</div>'+pn+'</div>'+
   '<aside class="pggraph"><div class="mglabel">◉ mapa desta secção</div><div class="mg"><canvas id="graph"></canvas></div></aside></div>'+
   '</div></section>';
  var ln=[{id:"c",l:pg.t,g:"brain",r:22},{id:"brain",l:(LANG==="pt"?"Cérebro":"Brain"),g:"concept",r:12}];
@@ -510,12 +562,19 @@ function render(){
  if(PAGE==="home")buildHome();else buildTopic();
  buildFooter();
  document.title="Dev’s Foundation — "+(PAGE==="home"?S("tagline"):P()[PAGE].t);
+ initParticles();
+}
+
+function initParticles(){
+ if(!window.particlesJS||!document.getElementById("particles-js"))return;
+ particlesJS("particles-js",{particles:{number:{value:135,density:{enable:true,value_area:780}},color:{value:["#ffffff","#28d7ff","#8cff4a"]},shape:{type:"circle"},opacity:{value:.46,random:true},size:{value:3.6,random:true},line_linked:{enable:true,distance:155,color:"#ffffff",opacity:.22,width:1.15},move:{enable:true,speed:1.9,direction:"none",random:true,straight:false,out_mode:"out"}},interactivity:{detect_on:"canvas",events:{onhover:{enable:true,mode:"grab"},onclick:{enable:true,mode:"push"},resize:true},modes:{grab:{distance:165,line_linked:{opacity:.4}},push:{particles_nb:2}}},retina_detect:true});
 }
 
 /* ===== interactive graph (monochrome) ===== */
-var cv,ctx,W=0,H=0,DPR=Math.min(window.devicePixelRatio||1,2),view={x:0,y:0,s:1},drag=null,pan=null,hover=null,running=false;
+var cv,ctx,W=0,H=0,DPR=Math.min(window.devicePixelRatio||1,2),view={x:0,y:0,s:1},drag=null,pan=null,hover=null,running=false,miniGraph=false;
 function initGraph(){
  cv=document.getElementById("graph");if(!cv)return;ctx=cv.getContext("2d");
+ miniGraph=!!(cv.closest&&cv.closest(".pggraph"));
  resizeG();seedG();kick();
  window.addEventListener("resize",function(){resizeG();kick();});
  cv.addEventListener("mousedown",function(e){var r=cv.getBoundingClientRect(),px=e.clientX-r.left,py=e.clientY-r.top,n=pickG(px,py);if(n)drag=n;else pan={x:e.clientX,y:e.clientY,vx:view.x,vy:view.y};kick();});
@@ -526,12 +585,20 @@ function initGraph(){
  cv.addEventListener("touchmove",function(e){if(!drag)return;e.preventDefault();var t=e.touches[0],r=cv.getBoundingClientRect(),w=fromG(t.clientX-r.left,t.clientY-r.top);drag.x=w.x;drag.y=w.y;drag.vx=0;drag.vy=0;kick();},{passive:false});
  cv.addEventListener("touchend",function(){drag=null;});
 }
-function resizeG(){if(!cv)return;var r=cv.getBoundingClientRect();W=r.width;H=r.height||460;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);}
-function seedG(){var i=0;NODES.forEach(function(n){var a=i/NODES.length*6.283;n.x=W/2+Math.cos(a)*(140+i*4);n.y=H/2+Math.sin(a)*(110+i*3);n.vx=0;n.vy=0;i++;});}
+function resizeG(){if(!cv)return;var r=cv.getBoundingClientRect();W=r.width;H=r.height||460;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);view.x=0;view.y=0;view.s=1;}
+function seedG(){
+ if(miniGraph){
+  var leaves=NODES.filter(function(n){return n.id!=="c";}),rad=Math.max(48,Math.min(W,H)*.31);
+  NODES.forEach(function(n,i){if(n.id==="c"){n.x=W/2;n.y=H/2;}else{var k=leaves.indexOf(n),a=(k/leaves.length)*6.283-1.57;n.x=W/2+Math.cos(a)*rad;n.y=H/2+Math.sin(a)*rad*.86;}n.vx=0;n.vy=0;});
+  return;
+ }
+ var i=0,base=Math.max(70,Math.min(W,H)*.24);NODES.forEach(function(n){var a=i/NODES.length*6.283;n.x=W/2+Math.cos(a)*(base+i*2.4);n.y=H/2+Math.sin(a)*(base*.72+i*1.8);n.vx=0;n.vy=0;i++;});
+}
 function simG(){
- for(var i=0;i<NODES.length;i++)for(var j=0;j<NODES.length;j++){if(i===j)continue;var a=NODES[i],b=NODES[j],dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||.01,d=Math.sqrt(d2),f=2600/d2;a.vx+=dx/d*f;a.vy+=dy/d*f;}
- LINKS.forEach(function(L){var a=NMAP[L[0]],b=NMAP[L[1]],dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||.01,f=(d-120)*.014;a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;});
- NODES.forEach(function(n){n.vx+=(W/2-n.x)*.003;n.vy+=(H/2-n.y)*.003;if(n===drag)return;n.vx*=.85;n.vy*=.85;n.x+=n.vx;n.y+=n.vy;});
+ var rep=miniGraph?520:2600,target=miniGraph?58:120,spring=miniGraph?.03:.014,center=miniGraph?.012:.003;
+ for(var i=0;i<NODES.length;i++)for(var j=0;j<NODES.length;j++){if(i===j)continue;var a=NODES[i],b=NODES[j],dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy||.01,d=Math.sqrt(d2),f=rep/d2;a.vx+=dx/d*f;a.vy+=dy/d*f;}
+ LINKS.forEach(function(L){var a=NMAP[L[0]],b=NMAP[L[1]],dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)||.01,f=(d-target)*spring;a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;});
+ NODES.forEach(function(n){n.vx+=(W/2-n.x)*center;n.vy+=(H/2-n.y)*center;if(n===drag)return;n.vx*=miniGraph?.72:.85;n.vy*=miniGraph?.72:.85;n.x+=n.vx;n.y+=n.vy;});
 }
 function tG(n){return{x:n.x*view.s+view.x,y:n.y*view.s+view.y};}
 function fromG(px,py){return{x:(px-view.x)/view.s,y:(py-view.y)/view.s};}
@@ -539,7 +606,7 @@ function drawG(){
  ctx.clearRect(0,0,W,H);
  var lit={};if(hover){lit[hover.id]=1;LINKS.forEach(function(L){if(L[0]===hover.id)lit[L[1]]=1;if(L[1]===hover.id)lit[L[0]]=1;});}
  LINKS.forEach(function(L){var a=tG(NMAP[L[0]]),b=tG(NMAP[L[1]]),on=hover&&(L[0]===hover.id||L[1]===hover.id);ctx.strokeStyle=on?"rgba(255,255,255,.55)":"rgba(150,150,150,.16)";ctx.lineWidth=on?1.6:1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();});
- NODES.forEach(function(n){var p=tG(n),r=n.r*view.s,dim=hover&&!lit[n.id];ctx.globalAlpha=dim?.28:1;ctx.beginPath();ctx.arc(p.x,p.y,r,0,6.283);ctx.fillStyle=GRP[n.g];ctx.shadowColor=n.r>=20?"#fff":"rgba(255,255,255,.5)";ctx.shadowBlur=n.r>=20?22:(hover&&lit[n.id]?13:5);ctx.fill();ctx.shadowBlur=0;ctx.globalAlpha=dim?.4:1;ctx.fillStyle="#f2f2f2";ctx.font=(n.r>=20?"600 13px":"12px")+" -apple-system,Segoe UI,Roboto,sans-serif";ctx.textAlign="center";ctx.fillText(n.l,p.x,p.y+r+15);});
+ NODES.forEach(function(n){var p=tG(n),rr=miniGraph?(n.id==="c"?14:6):n.r,r=rr*view.s,dim=hover&&!lit[n.id];ctx.globalAlpha=dim?.28:1;ctx.beginPath();ctx.arc(p.x,p.y,r,0,6.283);ctx.fillStyle=GRP[n.g];ctx.shadowColor=n.id==="c"?"#fff":"rgba(255,255,255,.5)";ctx.shadowBlur=n.id==="c"?(miniGraph?14:22):(hover&&lit[n.id]?13:5);ctx.fill();ctx.shadowBlur=0;ctx.globalAlpha=dim?.4:1;ctx.fillStyle="#f2f2f2";ctx.font=(miniGraph?(n.id==="c"?"600 11px":"10px"):(n.r>=20?"600 13px":"12px"))+" -apple-system,Segoe UI,Roboto,sans-serif";ctx.textAlign="center";ctx.fillText(n.l,p.x,p.y+r+(miniGraph?11:15));});
  ctx.globalAlpha=1;
 }
 function kick(){if(!running){running=true;requestAnimationFrame(loopG);}}
