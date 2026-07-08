@@ -4,7 +4,7 @@
 
 ![Dev's Foundation](preview.webp)
 
-O site oficial do **Dev's Foundation Method** — o primeiro sistema do mundo
+O site oficial do **Dev's Foundation Method** — o primeiro sistema
 de **consenso multi-agente com um cérebro partilhado**.
 
 **Ao vivo:** [devs.foundation](https://devs.foundation/) · **Método:** [multi-agent-consensus-method](https://github.com/Devs-Foundation/multi-agent-consensus-method)

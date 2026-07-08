@@ -20,10 +20,10 @@ var FILE={home:"inicio.html",problems:"problemas.html",solution:"solucoes.html",
 
 var I18N={
  en:{brand:"Dev's Foundation",tagline:"One brain. Every model. Infinite memory.",
-  home_tab:"Home",home_intro:"The world's first multi-agent consensus system with a shared brain. Designed not to depend on third parties, end to end.",
+  home_tab:"Home",home_intro:"The first multi-agent consensus system with a shared brain. Designed not to depend on third parties, end to end.",
   map_cap:"The method at a glance — eight pillars, one brain.",cta:"Explore the method",
   graph_hint:"drag nodes · scroll to zoom · drag to pan",
-  src:"Full method — source on GitHub",note:"The world's first multi-agent consensus method with a shared brain",legal:"Defensive publication · Prior art. © 2026 · Dev's Foundation",
+  src:"Full method — source on GitHub",note:"The first multi-agent consensus method with a shared brain",legal:"Defensive publication · Prior art. © 2026 · Dev's Foundation",
   prev:"Previous",next:"Next",
   PAGES:{
    problems:{t:"Known problems",intro:"Every language model suffers the same fundamental problems. You have to understand them before any solution makes sense.",items:[
@@ -86,10 +86,10 @@ var I18N={
     ["Years of legacy in seconds","The entire history lives in git. Every commit is a backup; every clone is a complete copy."]]}
   }},
  es:{brand:"Dev's Foundation",tagline:"Un cerebro. Todos los modelos. Memoria infinita.",
-  home_tab:"Inicio",home_intro:"El primer sistema de consenso multiagente del mundo con cerebro compartido. Diseñado para no depender de terceros, de punta a punta.",
+  home_tab:"Inicio",home_intro:"El primer sistema de consenso multiagente con cerebro compartido. Diseñado para no depender de terceros, de punta a punta.",
   map_cap:"El método de un vistazo — ocho pilares, un cerebro.",cta:"Explorar el método",
   graph_hint:"arrastra los nodos · rueda para zoom · arrastra para mover",
-  src:"Método completo — fuente en GitHub",note:"El primer método de consenso multiagente del mundo con cerebro compartido",legal:"Publicación defensiva · Prior art. © 2026 · Dev's Foundation",
+  src:"Método completo — fuente en GitHub",note:"El primer método de consenso multiagente con cerebro compartido",legal:"Publicación defensiva · Prior art. © 2026 · Dev's Foundation",
   prev:"Anterior",next:"Siguiente",
   PAGES:{
    problems:{t:"Problemas conocidos",intro:"Las IA de hoy tienen un problema que nadie ha resuelto bien: no tienen memoria a largo plazo. Es la naranja exprimida — la ventana de contexto es finita y, al llenarse, el modelo comprime la información hasta alucinar. E incluso los agentes con memoria persistente, como Hermes, chocan con un límite físico: la memoria se llena, hay que borrar lo viejo para escribir lo nuevo, y la compresión sigue degradando las sesiones largas. Estos son los problemas reales que todos enfrentan hoy.",items:[
@@ -158,10 +158,10 @@ var I18N={
     ["Legado de años accesible en segundos","Toda la historia vive en git. Cada commit es un backup; cada clon es una copia completa. Un evento catastrófico no borra nada — se conecta un modelo nuevo y el cerebro continúa."]]}
   }},
  fr:{brand:"Dev's Foundation",tagline:"Un cerveau. Chaque modèle. Mémoire infinie.",
-  home_tab:"Accueil",home_intro:"Le premier système de consensus multi-agent au monde avec un cerveau partagé. Conçu pour ne dépendre d'aucun tiers, de bout en bout.",
+  home_tab:"Accueil",home_intro:"Le premier système de consensus multi-agent avec un cerveau partagé. Conçu pour ne dépendre d'aucun tiers, de bout en bout.",
   map_cap:"La méthode en un coup d'œil — huit piliers, un cerveau.",cta:"Explorer la méthode",
   graph_hint:"déplace les nœuds · molette pour zoomer · glisse pour déplacer",
-  src:"Méthode complète — source sur GitHub",note:"La première méthode de consensus multi-agent au monde avec cerveau partagé",legal:"Publication défensive · Art antérieur. © 2026 · Dev's Foundation",
+  src:"Méthode complète — source sur GitHub",note:"La première méthode de consensus multi-agent avec cerveau partagé",legal:"Publication défensive · Art antérieur. © 2026 · Dev's Foundation",
   prev:"Précédent",next:"Suivant",
   PAGES:{
    problems:{t:"Problèmes connus",intro:"Les IA d'aujourd'hui ont un problème que personne n'a bien résolu : aucune mémoire à long terme. C'est l'orange pressée — la fenêtre de contexte est finie et, à mesure qu'elle se remplit, le modèle compresse l'information jusqu'à halluciner. Et même les agents dotés d'une mémoire persistante, comme Hermes, se heurtent à une limite physique : la mémoire se remplit, il faut effacer l'ancien pour écrire le nouveau, et la compression continue de dégrader les longues sessions. Voilà les vrais problèmes que tout le monde affronte aujourd'hui.",items:[
@@ -230,10 +230,10 @@ var I18N={
     ["Un héritage d'années accessible en secondes","Toute l'histoire vit dans git. Chaque commit est une sauvegarde ; chaque clone une copie complète. Un événement catastrophique n'efface rien — on branche un nouveau modèle et le cerveau continue."]]}
   }},
  de:{brand:"Dev's Foundation",tagline:"Ein Gehirn. Jedes Modell. Unendliches Gedächtnis.",
-  home_tab:"Start",home_intro:"Das weltweit erste Multi-Agenten-Konsenssystem mit gemeinsamem Gehirn. Entwickelt, um von Anfang bis Ende nicht von Dritten abhängig zu sein.",
+  home_tab:"Start",home_intro:"Das erste Multi-Agenten-Konsenssystem mit gemeinsamem Gehirn. Entwickelt, um von Anfang bis Ende nicht von Dritten abhängig zu sein.",
   map_cap:"Die Methode auf einen Blick — acht Säulen, ein Gehirn.",cta:"Die Methode erkunden",
   graph_hint:"Knoten ziehen · scrollen zum Zoomen · ziehen zum Verschieben",
-  src:"Vollständige Methode — Quelle auf GitHub",note:"Die weltweit erste Multi-Agenten-Konsensmethode mit gemeinsamem Gehirn",legal:"Defensive Veröffentlichung · Prior Art. © 2026 · Dev's Foundation",
+  src:"Vollständige Methode — Quelle auf GitHub",note:"Die erste Multi-Agenten-Konsensmethode mit gemeinsamem Gehirn",legal:"Defensive Veröffentlichung · Prior Art. © 2026 · Dev's Foundation",
   prev:"Zurück",next:"Weiter",
   PAGES:{
    problems:{t:"Bekannte Probleme",intro:"Die heutigen KIs haben ein Problem, das niemand richtig gelöst hat: kein Langzeitgedächtnis. Es ist die ausgepresste Orange — das Kontextfenster ist endlich, und wenn es sich füllt, komprimiert das Modell die Information, bis es halluziniert. Und selbst Agenten mit persistentem Gedächtnis wie Hermes stoßen an eine physische Grenze: das Gedächtnis füllt sich, man muss Altes löschen, um Neues zu schreiben, und die Kompression verschlechtert weiterhin lange Sitzungen. Das sind die echten Probleme, die heute alle betreffen.",items:[
@@ -302,10 +302,10 @@ var I18N={
     ["Jahre an Erbe in Sekunden zugänglich","Die gesamte Geschichte lebt in Git. Jeder Commit ist ein Backup; jeder Klon eine vollständige Kopie. Ein katastrophales Ereignis löscht nichts — man schließt ein neues Modell an und das Gehirn macht weiter."]]}
   }},
  zh:{brand:"Dev's Foundation",tagline:"一个大脑。每个模型。无限记忆。",
-  home_tab:"首页",home_intro:"世界上首个具有共享大脑的多智能体共识系统。端到端设计，不依赖第三方。",
+  home_tab:"首页",home_intro:"首个具有共享大脑的多智能体共识系统。端到端设计，不依赖第三方。",
   map_cap:"方法一览 —— 八大支柱，一个大脑。",cta:"探索方法",
   graph_hint:"拖动节点 · 滚轮缩放 · 拖动平移",
-  src:"完整方法 —— GitHub 源",note:"世界上首个具有共享大脑的多智能体共识方法",legal:"防御性公开 · 现有技术. © 2026 · Dev's Foundation",
+  src:"完整方法 —— GitHub 源",note:"首个具有共享大脑的多智能体共识方法",legal:"防御性公开 · 现有技术. © 2026 · Dev's Foundation",
   prev:"上一页",next:"下一页",
   PAGES:{
    problems:{t:"已知问题",intro:"今天的 AI 有一个没人真正解决的问题：没有长期记忆。这就是被榨干的橙子 —— 上下文窗口是有限的，随着它被填满，模型不断压缩信息，直到产生幻觉。即使是像 Hermes 这样已有持久记忆的代理，也会撞上物理极限：记忆满了，得删旧的才能写新的，而压缩仍在拖垮长会话。这些就是今天所有人都面对的真实问题。",items:[
@@ -374,10 +374,10 @@ var I18N={
     ["数年积累秒级可达","全部历史都活在 git 里。每次 commit 都是备份；每个克隆都是完整副本。灾难性事件删不掉任何东西 —— 接上一个新模型，大脑继续。"]]}
   }},
  pt:{brand:"Dev's Foundation",tagline:"Um cérebro. Todos os modelos. Memória infinita.",
-  home_tab:"Início",home_intro:"O primeiro sistema de consenso multi-agente do mundo com cérebro partilhado. Desenhado para não depender de terceiros, de ponta a ponta.",
+  home_tab:"Início",home_intro:"O primeiro sistema de consenso multi-agente com cérebro partilhado. Desenhado para não depender de terceiros, de ponta a ponta.",
   map_cap:"O método num relance — oito pilares, um cérebro.",cta:"Explorar o método",
   graph_hint:"arrasta os nós · roda para zoom · arrasta para mover",
-  src:"Método completo — fonte no GitHub",note:"O primeiro método de consenso multi-agente do mundo com cérebro partilhado",legal:"Publicação defensiva · Prior art. © 2026 · Dev's Foundation",
+  src:"Método completo — fonte no GitHub",note:"O primeiro método de consenso multi-agente com cérebro partilhado",legal:"Publicação defensiva · Prior art. © 2026 · Dev's Foundation",
   prev:"Anterior",next:"Seguinte",
   PAGES:{
    problems:{t:"Problemas conhecidos",intro:"As IAs de hoje têm um problema que ninguém resolveu bem: não têm memória de longo prazo. É a laranja espremida — a janela de contexto é finita e, à medida que enche, o modelo comprime a informação, perde coerência e acaba a alucinar. E mesmo os agentes que já têm memória persistente, como o Hermes, batem num limite físico: a memória enche, tens de apagar o antigo para escrever o novo, e a compressão continua a degradar as sessões longas. Estes são os problemas reais que todos enfrentam hoje.",items:[

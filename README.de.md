@@ -4,7 +4,7 @@
 
 ![Dev's Foundation](preview.webp)
 
-Die offizielle Website der **Dev's Foundation Methode** — das weltweit erste
+Die offizielle Website der **Dev's Foundation Methode** — das erste
 **Multi-Agenten-Konsenssystem mit einem gemeinsamen Gehirn**.
 
 **Live:** [devs.foundation](https://devs.foundation/) · **Methode:** [multi-agent-consensus-method](https://github.com/Devs-Foundation/multi-agent-consensus-method)

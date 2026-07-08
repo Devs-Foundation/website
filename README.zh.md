@@ -4,7 +4,7 @@
 
 ![Dev's Foundation](preview.webp)
 
-**Dev's Foundation Method** 的官方网站——世界上第一个
+**Dev's Foundation Method** 的官方网站——第一个
 **具有共享大脑的多智能体共识系统**。
 
 **在线地址：** [devs.foundation](https://devs.foundation/) · **方法论：** [multi-agent-consensus-method](https://github.com/Devs-Foundation/multi-agent-consensus-method)
