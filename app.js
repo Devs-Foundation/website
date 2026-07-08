@@ -516,11 +516,9 @@ function buildHome(){
  document.getElementById("main").innerHTML=
   '<section class="hero app-landing"><div class="wrap"><div class="home-grid"><div class="mainstage"><div class="kicker"><span class="pulse"></span>Public method · private brains</div><h1>Dev’s <span>Foundation</span></h1><p class="tagline">'+S("tagline")+'</p><p class="intro">'+S("home_intro")+'</p><a class="cta" href="'+FILE[ORDER[0]]+'">'+S("cta")+' →</a><div class="system-strip">'+proofHtml+'</div></div>'
   +'<aside class="identity"><div class="logo-orbit">'+logoImg(145)+'</div><div class="metrics">'+homeStatusHtml+'</div></aside></div>'
-  +'<div class="media-grid"><div class="media-card graphbox"><canvas id="graph"></canvas><div class="gic">◉ interactive graph</div><div class="ghint">'+S("graph_hint")+'</div></div>'
-  +'<div class="media-card mapwrap"><a class="open-img" href="assets/grafo-7-dias.png" target="_blank" rel="noopener"><img src="assets/grafo-7-dias.png" alt="7 days"></a><p class="cap">'+(LANG==="pt"?"O cérebro partilhado aos 7 dias — liga-se e cresce sozinho.":"The shared brain at 7 days — it links and grows on its own.")+'</p></div>'
-  +'<div class="media-card mapwrap"><a class="open-img" href="assets/mindmap-'+LANG+'.png" target="_blank" rel="noopener"><img src="assets/mindmap-'+LANG+'.png" alt="'+S("map_cap")+'"></a><p class="cap">'+S("map_cap")+'</p></div></div>'
+  +'<div class="media-grid single"><a class="open-img" href="assets/brain-graph.webp" target="_blank" rel="noopener"><img src="assets/brain-graph.webp" alt="Shared consensus brain graph" style="width:100%;display:block;border-radius:14px;border:1px solid rgba(40,215,255,0.28)"></a></div>'
   +diffBlock+'<div class="tabcards">'+cards+'</div></div></section>';
- initGraph();
+ if(document.getElementById("graph"))initGraph();
 }
 function buildTopic(){
  var pg=P()[PAGE];var idx=ORDER.indexOf(PAGE);
@@ -565,7 +563,7 @@ function buildTopic(){
  var ll=[["c","brain"]];
  pg.items.forEach(function(it,i){var lb=it[0].length>22?it[0].slice(0,20)+"…":it[0];ln.push({id:"n"+i,l:lb,g:(i%2?"know":"agent"),r:9});ll.push(["c","n"+i]);});
  NODES=ln;LINKS=ll;NMAP={};for(var q=0;q<NODES.length;q++)NMAP[NODES[q].id]=NODES[q];
- initGraph();
+ if(document.getElementById("graph"))initGraph();
 }
 function render(){
  document.documentElement.lang=LANG;
