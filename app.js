@@ -516,7 +516,7 @@ function buildHome(){
  document.getElementById("main").innerHTML=
   '<section class="hero app-landing"><div class="wrap"><div class="home-grid"><div class="mainstage"><div class="kicker"><span class="pulse"></span>Public method · private brains</div><h1>Dev’s <span>Foundation</span></h1><p class="tagline">'+S("tagline")+'</p><p class="intro">'+S("home_intro")+'</p><a class="cta" href="'+FILE[ORDER[0]]+'">'+S("cta")+' →</a><div class="system-strip">'+proofHtml+'</div></div>'
   +'<aside class="identity"><div class="logo-orbit">'+logoImg(145)+'</div><div class="metrics">'+homeStatusHtml+'</div></aside></div>'
-  +'<div style="width:100%;margin:14px 0 4px"><a class="open-img" href="assets/brain-graph.webp" target="_blank" rel="noopener"><img src="assets/brain-graph.webp" alt="Shared consensus brain graph" style="width:100%;display:block;border-radius:14px;border:1px solid rgba(40,215,255,0.28)"></a></div>'
+  +'<div style="width:100%;margin:14px 0 4px"><a class="open-img" href="assets/brain-graph.webp" target="_blank" rel="noopener" style="display:block;width:100%"><img src="assets/brain-graph.webp" alt="Shared consensus brain graph" style="width:100%;display:block;border-radius:14px;border:1px solid rgba(40,215,255,0.28)"></a></div>'
   +diffBlock+'<div class="tabcards">'+cards+'</div></div></section>';
  if(document.getElementById("graph"))initGraph();
 }
